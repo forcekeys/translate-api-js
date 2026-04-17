@@ -1,0 +1,27 @@
+{
+  "name": "translate-api",
+  "version": "1.0.0",
+  "description": "TranslateAPI JavaScript/Node.js SDK",
+  "main": "src/translate-api.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+    "build": "echo \"No build step required\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forcekeys/translate-api-js.git"
+  },
+  "keywords": [
+    "translation",
+    "api",
+    "translate",
+    "language"
+  ],
+  "author": "ForceKeys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forcekeys/translate-api-js/issues"
+  },
+  "homepage": "https://github.com/forcekeys/translate-api-js#readme"
+}
