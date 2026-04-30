@@ -29,7 +29,7 @@ class TranslateAPI {
      * @param {string} baseUrl API base URL
      * @param {number} timeout Request timeout in milliseconds
      */
-    constructor(apiKey, baseUrl = 'https://api.translate.forcekeys.com/api/v1', timeout = 30000) {
+    constructor(apiKey, baseUrl = 'https://api.deeptranslate.online/api/v1', timeout = 30000) {
         if (!apiKey) {
             throw new Error('API key is required');
         }

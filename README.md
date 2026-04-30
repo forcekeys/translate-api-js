@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/translate-api.svg)](https://www.npmjs.com/package/translate-api)
 [![npm downloads](https://img.shields.io/npm/dm/translate-api.svg)](https://www.npmjs.com/package/translate-api)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Documentation](https://img.shields.io/badge/docs-forcekeys.com-blue.svg)](https://translate.forcekeys.com/docs)
+[![Documentation](https://img.shields.io/badge/docs-deeptranslate.online-blue.svg)](https://deeptranslate.online/docs)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 
 Official JavaScript/TypeScript client library for the TranslateAPI translation service. Translate text, documents, and images between 70+ languages with a simple, intuitive interface. Works in Node.js, browsers, and React Native.
@@ -59,7 +59,7 @@ npm install
 
 ### 1. Get Your API Key
 
-First, sign up at [translate.forcekeys.com](https://translate.forcekeys.com) to get your free API key.
+First, sign up at [deeptranslate.online](https://deeptranslate.online) to get your free API key.
 
 ### 2. Basic Usage
 
@@ -257,7 +257,7 @@ import { TranslateAPI } from 'translate-api';
 
 // Configure with custom options
 const api = new TranslateAPI('your_api_key', {
-  baseURL: 'https://api.translate.forcekeys.com/api/v1',
+  baseURL: 'https://api.deeptranslate.online/api/v1',
   timeout: 30000,  // 30 seconds
   retries: 3,      // Number of retry attempts
   headers: {
@@ -385,7 +385,7 @@ new TranslateAPI(apiKey: string, options?: TranslateAPIOptions)
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| `baseURL` | string | `https://api.translate.forcekeys.com/api/v1` | API base URL |
+| `baseURL` | string | `https://api.deeptranslate.online/api/v1` | API base URL |
 | `timeout` | number | `30000` | Request timeout in milliseconds |
 | `retries` | number | `3` | Number of retry attempts |
 | `headers` | object | `{}` | Additional headers to send |
@@ -505,9 +505,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-- **Documentation**: [translate.forcekeys.com/docs](https://translate.forcekeys.com/docs)
+- **Documentation**: [deeptranslate.online/docs](https://deeptranslate.online/docs)
 - **Issues**: [GitHub Issues](https://github.com/forcekeys/translate-api-js/issues)
-- **Email**: support@forcekeys.com
+- **Email**: support@deeptranslate.online
 - **Discord**: [Join our Discord](https://discord.gg/forcekeys)
 
 ## License
